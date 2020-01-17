@@ -1,0 +1,38 @@
+    1  cd cd  clmystery-master/
+    2  ls
+    3  cd  clmystery-master/
+    4  l
+    5  cd mystery/
+    6  l
+    7  head -n 20 people 
+    8  history
+    9  head -n 20 people  | grep CLUE
+   10  head -n 20 people  | grep CLUE crimescene 
+   11  head vehicles 
+   12  grep "Annabel" people
+   13  head -n 173 streets/Mattapan_Street | tail -n 1
+   14  grep "Honda" vehicles
+   15  grep "Blue" vehicles
+   16  grep "L337" vehicles
+   17  grep "Honda" vehicles
+   18  grep -A 5 "L337" mystery/vehicles
+   19  cd ..
+   20  ls
+   21  cd mystery/memberships/
+   22  grep -A 5 "L337" mystery/vehicles
+   23  grep -A 5 "L337" ../../mystery/vehicles
+   24  cd ..
+   25  l
+   26  grep -A 5 "L337" vehicles
+   27  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+   28  cat Fitness_Galaxy AAA United_MileagePlus | grep "Ann*"
+   29  cat Fitness_Galaxy AAA United_MileagePlus | grep Anna*
+   30  ls 
+   31  cd memberships/
+   32  cat Fitness_Galaxy AAA United_MileagePlus | grep Anna*
+   33  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith" | wc -l
+   34  cat Fitness_Galaxy AAA United_MileagePlus | grep "Annabel" | wc -l
+   35  cat Fitness_Galaxy AAA United_MileagePlus | grep "Annabel" 
+   36  cat Fitness_Galaxy AAA United_MileagePlus | grep "Oluwasegun Annabel" 
+   37  echo "Oluwasegun Annabel"
+   38  history > mon_historique.log
