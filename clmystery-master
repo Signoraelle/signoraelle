@@ -106,11 +106,44 @@
   106  head -Honda.txt
   107  history
   108  pwd
-  109  cat < vehicles
-  110  grep -A 5 "L337" mystery/vehicles
-  111  cd ..
-  112  l
-  113  grep -A 5 "L337" vehicles
-  114  cat Fitness_Galaxy AAA United_MileagePlus | grep "jeremy Bowers" | wc -l
-  115  echo "jeremy Bowers"
-   38  history > mon_historique.log
+  109  cd ..
+  110  l
+  111  grep -A 5 "L337" vehicles
+  112  ls
+  113  cd clmystery-master/
+  114  cd mystery/
+  115  cat Indices
+  116  cat Fitness_Galaxy AAA United_MileagePlus | grep "Erika Owens"
+  117  ls
+  118  cd memberships
+  119  cat Fitness_Galaxy AAA United_MileagePlus | grep "Erika Owens"
+  120  cat Fitness_Galaxy AAA United_MileagePlus | grep "Aron Pilhofer"
+  121  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska"
+  122  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers"
+  123  grep "Joe Germuska" people
+  124  ls
+  125  cat Terminal_City_Library AAA Delta_SkyMiles Museum_of_Bash_History | grep "Erika Owens"
+  126  cat Terminal_City_Library AAA Delta_SkyMiles Museum_of_Bash_History | grep "Aron Pilhofer"
+  127  cat Terminal_City_Library AAA Delta_SkyMiles Museum_of_Bash_History | grep "Joe Germuska"
+  128  cat Terminal_City_Library AAA Delta_SkyMiles Museum_of_Bash_History | grep "Jeremy Bowers"
+  129  cd ..
+  130  head "Aron Pilhofer" people
+  131  grep "Aron Pilhofer" people
+  132  cd streets
+  133  head -n 145 Claybourne_Street | tail -n 1
+  134  cd ..
+  135  cd Interviews
+  136  ls
+  137  cd interviews
+  138  head interview-1767435
+  139  cd ..
+  140  grep "Jeremy Bowers" people
+  141  cd streets
+  142  head -n 248 Dunstable_Road | tail -n 1
+  143  head -n 284 Dunstable_Road | tail -n 1
+  144  CD ..
+  145  cd ..
+  146  ls
+  147  cd interviews
+  148  head interview-9620713
+  149  echo Jeremy Bowers
