@@ -1,38 +1,116 @@
-    1  cd cd  clmystery-master/
+ 1   ~
     2  ls
-    3  cd  clmystery-master/
-    4  l
-    5  cd mystery/
-    6  l
-    7  head -n 20 people 
-    8  history
-    9  head -n 20 people  | grep CLUE
-   10  head -n 20 people  | grep CLUE crimescene 
-   11  head vehicles 
-   12  grep "Annabel" people
-   13  head -n 173 streets/Mattapan_Street | tail -n 1
-   14  grep "Honda" vehicles
-   15  grep "Blue" vehicles
-   16  grep "L337" vehicles
-   17  grep "Honda" vehicles
-   18  grep -A 5 "L337" mystery/vehicles
-   19  cd ..
+    3  grep "CLUE" crimescene
+    4  cd clmystery-master
+    5  cd desktop
+    6   ls
+    7  grep "CLUE" interviews
+    8  grep "CLUE" people
+    9  ls
+   10  cat < crimescene
+   11  cd -
+   12  ls
+   13  cat < hint2
+   14  cd hint3
+   15  cat > hint3
+   16  cat hint3
+   17  ls
+   18  cd
+   19  cd desktop
    20  ls
-   21  cd mystery/memberships/
-   22  grep -A 5 "L337" mystery/vehicles
-   23  grep -A 5 "L337" ../../mystery/vehicles
-   24  cd ..
-   25  l
-   26  grep -A 5 "L337" vehicles
-   27  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
-   28  cat Fitness_Galaxy AAA United_MileagePlus | grep "Ann*"
-   29  cat Fitness_Galaxy AAA United_MileagePlus | grep Anna*
-   30  ls 
-   31  cd memberships/
-   32  cat Fitness_Galaxy AAA United_MileagePlus | grep Anna*
-   33  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith" | wc -l
-   34  cat Fitness_Galaxy AAA United_MileagePlus | grep "Annabel" | wc -l
-   35  cat Fitness_Galaxy AAA United_MileagePlus | grep "Annabel" 
-   36  cat Fitness_Galaxy AAA United_MileagePlus | grep "Oluwasegun Annabel" 
-   37  echo "Oluwasegun Annabel"
+   21  cd clmystery-master
+   22  ls
+   23  cat < hint1
+   24  cat < hint2
+   25  cat < hint3
+   26  cat < hint4
+   27  cat < hint5
+   28  cat < hint6
+   29  cat < hit7
+   30  cat < hint7
+   31  cat < hint8
+   32  cd mystery
+   33  ls
+   34  grep "CLUE" crimescene
+   35  cd mystery
+   36  ls
+   37  cat < people
+   38  grep "Annabel" people
+   39  cd ..
+   40  cd streets
+   41  ls
+   42  cd mystery
+   43  ls
+   44  cd streets
+   45  ls
+   46  head -n 173  streets/Mattapan_Street | tail -n 1
+   47  head -n 179 streets/Buckingham Place | tail -n 1
+   48  cd ..
+   49  head -n 179 streets/Buckingham Place | tail -n 1
+   50  head -n 179 streets/Buckingham_Place | tail -n 1
+   51  head -n 176 streets/Haley Street | tail -n 1
+   52  head -n 176 streets/Haley_Street | tail -n 1
+   53  head -n 173 streets/Mattapan_Street | tail -n 1
+   54  cd ..
+   55  ls
+   56  cd mystery
+   57  ls
+   58  cat < interviews
+   59  cd interviews
+   60  ls
+   61  grep "699607" interview
+   62  history
+   63  cd ..
+   64  grep "699607" interview
+   65  ls
+   66  grep "699607" interviews
+   67  cd interviews/
+   68  ls
+   69  grep "699607" *
+   70  ls | grep "699607"
+   71  cat interview-699607
+   72  | grep "871877"
+   73  pwd
+   74  ls
+   75  ls | grep "871877"
+   76  cat interview-871877
+   77  ls | grep "699607"
+   78  cat interview-699607
+    79  pwd
+   80  cd ..
+   81  pwd
+   82  cat vehicles
+   83  ls |grep "Honda" vehicles
+   84  grep "Blue" vehicles
+   85  pwd
+   86  cd mystery
+   87  pwd
+   88  ls
+   89  cat vehicles
+   90  ls | Honda
+   91  history
+   92  pwd
+   93  cat < vehicles
+   94  grep "Honda" vehicles
+   95  grep "Blue" vehicles
+   96  grep "L337" vehicles
+   97  pwd
+   98  cat < veicholes
+   99  grep 'Honda' vehicles
+  100  pwd
+  101  cat < vehicles
+  102  grep 'L337' vehicles
+  103  head blue.txt
+  104  pwd
+  105  cat < vehicles
+  106  head -Honda.txt
+  107  history
+  108  pwd
+  109  cat < vehicles
+  110  grep -A 5 "L337" mystery/vehicles
+  111  cd ..
+  112  l
+  113  grep -A 5 "L337" vehicles
+  114  cat Fitness_Galaxy AAA United_MileagePlus | grep "jeremy Bowers" | wc -l
+  115  echo "jeremy Bowers"
    38  history > mon_historique.log
